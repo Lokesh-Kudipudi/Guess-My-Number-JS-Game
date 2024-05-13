@@ -124,6 +124,9 @@ h1 {
     flex-direction: column;
     gap: 0;
   }
+  h1 {
+    font-size: 3.5rem;
+  }
 
   .number {
     font-size: 5rem;
@@ -131,7 +134,10 @@ h1 {
   }
 
   .left {
-    margin-bottom: -20rem;
+    margin-bottom: -17.5rem;
+  }
+  .right {
+    text-align: center;
   }
   .guess {
     font-size: 4rem;
@@ -142,9 +148,15 @@ h1 {
   .message {
     margin-bottom: 4rem;
   }
-
-  .btn {
+  .check {
     padding: 1.5rem 2rem;
     font-size: 1.5rem;
+  }
+  .again {
+    padding: 1.5rem 1.75rem;
+    font-size: 1rem;
+  }
+  .between {
+    font-size: 1.2rem;
   }
 }
